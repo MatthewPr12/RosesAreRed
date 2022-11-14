@@ -1,4 +1,9 @@
 name: only-tests
+on:
+  push:
+    branches:
+      - main
+      - master
 
 
 jobs:
